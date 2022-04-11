@@ -1,0 +1,98 @@
+{
+    "rangeSeeds": [
+        {
+            "file": "src/Notepad.java",
+            "seeds": [
+                {
+                    "id": "d5a6a86a-878e-4e19-b507-b52638bb3b13",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "7f0e9dc7-a554-428c-a212-5981ede06841",
+                    "startLine": 303,
+                    "startColumn": 87,
+                    "endLine": 303,
+                    "endColumn": 101,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "f1bbd1ee-c2da-4334-bf48-b7dc446bfe19",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "64cb40ad-538d-4af8-a2dc-4bdb2c5156ba",
+                    "startLine": 304,
+                    "startColumn": 89,
+                    "endLine": 304,
+                    "endColumn": 104,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "199a5d38-b5f0-44c4-8692-417f82a2c788",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "ededfdce-66d9-415f-a66b-aec317e93741",
+                    "startLine": 305,
+                    "startColumn": 91,
+                    "endLine": 305,
+                    "endColumn": 107,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "650865a5-b7fe-495c-a633-077abc0ae4ec",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "7f0e9dc7-a554-428c-a212-5981ede06841",
+                    "startLine": 311,
+                    "startColumn": 87,
+                    "endLine": 311,
+                    "endColumn": 101,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "9bd2d929-cd79-4912-bad7-5a240eaba13e",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "64cb40ad-538d-4af8-a2dc-4bdb2c5156ba",
+                    "startLine": 312,
+                    "startColumn": 88,
+                    "endLine": 312,
+                    "endColumn": 103,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "5b4e6a70-1035-4a6b-ad97-daff9e39fdde",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "ededfdce-66d9-415f-a66b-aec317e93741",
+                    "startLine": 313,
+                    "startColumn": 89,
+                    "endLine": 313,
+                    "endColumn": 105,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "26cf6f33-c0a3-4dc4-a58e-c8ff680bb42d",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "e8765434-a198-45ca-96cc-8c2497178bbb",
+                    "startLine": 351,
+                    "startColumn": 89,
+                    "endLine": 351,
+                    "endColumn": 104,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "74d3a176-104e-46b6-aeb9-517e494d1868",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "e8765434-a198-45ca-96cc-8c2497178bbb",
+                    "startLine": 361,
+                    "startColumn": 88,
+                    "endLine": 361,
+                    "endColumn": 103,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
+        }
+    ],
+    "fileSeeds": []
+}
