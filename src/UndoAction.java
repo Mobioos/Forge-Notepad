@@ -27,7 +27,7 @@ class UndoAction extends AbstractAction {
             ex.printStackTrace();
         }
         update();
-        notepad.redoAction.update();
+        
     }
 
     protected void update() {
@@ -41,3 +41,4 @@ class UndoAction extends AbstractAction {
     }
 
 }
+
