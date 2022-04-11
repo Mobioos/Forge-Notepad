@@ -41,7 +41,7 @@ public class Notepad extends JFrame {
 
     // Create the menu items
     private JMenuItem neW, opeN, savE, saveAS, prinT, exiT, fonT, abouT,
-            cuT, copY, pastE, selectALL;
+             copY, pastE, selectALL;
 
     private JCheckBoxMenuItem lineWraP;
 
@@ -301,27 +301,18 @@ public class Notepad extends JFrame {
         center.nCenter();
         show();
 
-        ediT.add(cuT = new JMenuItem("Cut", new ImageIcon(this.getClass().getResource("images/cut.gif"))));
-        ediT.add(copY = new JMenuItem("Copy", new ImageIcon(this.getClass().getResource("images/copy.gif"))));
-        ediT.add(pastE = new JMenuItem("Paste", new ImageIcon(this.getClass().getResource("images/paste.gif"))));
+        ediT.add(copY = new JMenuItem("Copy", new ImageIcon(this.getClass().getResource("images/copy.png"))));
+        ediT.add(pastE = new JMenuItem("Paste", new ImageIcon(this.getClass().getResource("images/paste.png"))));
 
-        cuT.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_X, ActionEvent.CTRL_MASK));
         copY.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_C, ActionEvent.CTRL_MASK));
         pastE.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_V, ActionEvent.CTRL_MASK));
 
-        toolBar.add(cutButton = new JButton(new ImageIcon(this.getClass().getResource("images/cut.gif"))));
-        toolBar.add(copyButton = new JButton(new ImageIcon(this.getClass().getResource("images/copy.gif"))));
-        toolBar.add(pasteButton = new JButton(new ImageIcon(this.getClass().getResource("images/paste.gif"))));
+        toolBar.add(copyButton = new JButton(new ImageIcon(this.getClass().getResource("images/copy.png"))));
+        toolBar.add(pasteButton = new JButton(new ImageIcon(this.getClass().getResource("images/paste.png"))));
 
-        cutButton.setToolTipText("Cut");
         copyButton.setToolTipText("Copy");
         pasteButton.setToolTipText("Paste");
 
-        cuT.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent ae) {
-                actions.cuT();
-            }
-        });
         copY.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent ae) {
                 actions.copY();
@@ -333,11 +324,6 @@ public class Notepad extends JFrame {
             }
         });
 
-        cutButton.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent ae) {
-                actions.cuT();
-            }
-        });
         copyButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent ae) {
                 actions.copY();
@@ -349,7 +335,7 @@ public class Notepad extends JFrame {
             }
         });
 
-        ediT.add(finD = new JMenuItem("Find", new ImageIcon(this.getClass().getResource("images/find.gif"))));
+        ediT.add(finD = new JMenuItem("Find", new ImageIcon(this.getClass().getResource("images/find.png"))));
         ediT.add(findNexT = new JMenuItem("Find Next"));
         // ediT.insertSeparator(8);
 
@@ -359,7 +345,7 @@ public class Notepad extends JFrame {
          */
         finD.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F, ActionEvent.CTRL_MASK));
         findNexT.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F3, ActionEvent.CTRL_MASK));
-        toolBar.add(findButton = new JButton(new ImageIcon(this.getClass().getResource("images/find.gif"))));
+        toolBar.add(findButton = new JButton(new ImageIcon(this.getClass().getResource("images/find.png"))));
         findButton.setToolTipText("Find");
 
         finD.addActionListener(new ActionListener() {
@@ -380,11 +366,10 @@ public class Notepad extends JFrame {
         });
 
         ediT.add(undoAction);
-        ediT.add(redoAction);
 
         toolBar.addSeparator();
         toolBar.add(undoAction);
-        toolBar.add(redoAction);
+        
         toolBar.addSeparator();
 
         textArea.getDocument().addUndoableEditListener(new UndoableEditListener() {
@@ -392,7 +377,7 @@ public class Notepad extends JFrame {
                 // Remember the edit and update the menus
                 undo.addEdit(e.getEdit());
                 undoAction.update();
-                redoAction.update();
+
             }
         });
     }
@@ -402,7 +387,6 @@ public class Notepad extends JFrame {
         new Notepad();
     }
 
-    private JButton cutButton;
     private JButton copyButton;
     private JButton pasteButton;
 
@@ -415,8 +399,5 @@ public class Notepad extends JFrame {
 
     UndoAction undoAction = new UndoAction(this);
 
-    RedoAction redoAction = new RedoAction(this);
-
-    private JButton undoButton, redoButton;
-
 }
+
