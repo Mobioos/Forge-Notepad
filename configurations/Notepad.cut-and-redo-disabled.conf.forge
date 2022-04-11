@@ -1,6 +1,6 @@
 {
     "isAbsolutePath": false,
-    "resourcesPath": "resources/files",
+    "resourcesPath": ".mobioos-forge/customization-file-resources",
     "functionalityConfiguration": [
         "6f6360b6-ec8f-40fb-9efd-9e0552a5103c",
         "bf4f3084-fd1d-49d1-8a82-637aab61ba1f",
