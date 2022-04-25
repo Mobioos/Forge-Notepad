@@ -693,7 +693,8 @@
                             "parent": "-1",
                             "children": [
                                 "39498d7a-5b35-429b-8103-7c3fc3fbb87d",
-                                "c1bd5df1-64e9-41be-8130-f2e94e780139"
+                                "c1bd5df1-64e9-41be-8130-f2e94e780139",
+                                "b80ff748-fa85-4c2d-ac35-0aca5cd93364"
                             ]
                         }
                     ]
@@ -910,6 +911,52 @@
                             "startColumn": 87,
                             "endLine": 311,
                             "endColumn": 101,
+                            "isValidated": true,
+                            "analyzer": "Resource Analyzer",
+                            "isFromMarker": true,
+                            "parent": "-1",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/RedoAction.java",
+            "propagations": [
+                {
+                    "featureKey": "b08ad398-4062-43d2-812c-c1188416d2a6",
+                    "ranges": [
+                        {
+                            "propagationId": "b80ff748-fa85-4c2d-ac35-0aca5cd93364",
+                            "sourceId": "b80ff748-fa85-4c2d-ac35-0aca5cd93364",
+                            "startLine": 16,
+                            "startColumn": 59,
+                            "endLine": 16,
+                            "endColumn": 74,
+                            "isValidated": true,
+                            "analyzer": "Resource Analyzer",
+                            "isFromMarker": true,
+                            "parent": "-1",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/UndoAction.java",
+            "propagations": [
+                {
+                    "featureKey": "6d3e7bfc-50ac-4aea-a39a-2ab7f53ea7fa",
+                    "ranges": [
+                        {
+                            "propagationId": "2c19d992-bed4-4752-abaf-da6ee0ec22dd",
+                            "sourceId": "2c19d992-bed4-4752-abaf-da6ee0ec22dd",
+                            "startLine": 16,
+                            "startColumn": 59,
+                            "endLine": 16,
+                            "endColumn": 74,
                             "isValidated": true,
                             "analyzer": "Resource Analyzer",
                             "isFromMarker": true,

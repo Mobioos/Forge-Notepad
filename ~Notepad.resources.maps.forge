@@ -92,6 +92,38 @@
                     "isValidated": true
                 }
             ]
+        },
+        {
+            "file": "src/RedoAction.java",
+            "seeds": [
+                {
+                    "id": "b80ff748-fa85-4c2d-ac35-0aca5cd93364",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "b08ad398-4062-43d2-812c-c1188416d2a6",
+                    "startLine": 16,
+                    "startColumn": 59,
+                    "endLine": 16,
+                    "endColumn": 74,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
+        },
+        {
+            "file": "src/UndoAction.java",
+            "seeds": [
+                {
+                    "id": "2c19d992-bed4-4752-abaf-da6ee0ec22dd",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "6d3e7bfc-50ac-4aea-a39a-2ab7f53ea7fa",
+                    "startLine": 16,
+                    "startColumn": 59,
+                    "endLine": 16,
+                    "endColumn": 74,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
         }
     ],
     "fileSeeds": []

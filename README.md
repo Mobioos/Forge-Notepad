@@ -46,7 +46,7 @@ In the given Feature Model, **we have 13 Features (7 Functional Features and 6 R
 
 ### The Feature Mappings
 
-Mapping the Features of the Notepad application has been made with 19 Markers (18 Code-Markers and 1 File-Marker). Those markers provided 50 Maps in total.
+Mapping the Features of the Notepad application has been made with 21 Markers (20 Code-Markers and 1 File-Marker). Those markers provided 50 Maps in total.
 The biggest share of Markers and Maps is located inside the file `Notepad.java`. Indeed, this file contains 16 Markers and 40 Maps.
 
 ![Feature Maps View](./images/feature-maps.png)
