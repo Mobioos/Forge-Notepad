@@ -33,7 +33,7 @@ The `main` method of the Notepad application is located in the `Notepad.java` fi
 
 The screenshot below summarizes the project architecture.
 
-<img src="./images/project-files.png" height="600px"/>
+<img src="https://mobioosstorageaccount.blob.core.windows.net/public-documentation/Forge-tutorials/Notepad/images/project-files.png" height="600px"/>
 
 ## SPL Overview
 
