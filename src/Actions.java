@@ -453,10 +453,7 @@ public class Actions {
 		n.setTitle(jfc.getSelectedFile().getName() + " - JAVA� Notepad");
 	}
 
-	// to cut the selected text
-	public void cuT() {
-		n.getTextArea().cut();
-	}
+	
 
 	// to copy the selected text
 	public void copY() {
