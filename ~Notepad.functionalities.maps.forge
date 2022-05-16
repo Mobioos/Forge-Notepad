@@ -124,6 +124,55 @@
                     "isValidated": true
                 }
             ]
+        },
+        {
+            "file": "src/Actions.java",
+            "seeds": [
+                {
+                    "id": "d6ce5641-2053-4b6c-994e-fb3a4b6b5a85",
+                    "analyzer": "Interoperable analyzer",
+                    "featureKey": "7990962f-5d9c-48fa-b21f-7a43a2779fd7",
+                    "startLine": 455,
+                    "startColumn": 1,
+                    "endLine": 458,
+                    "endColumn": 2,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "53d2ed17-5774-4c6d-bd50-dd0b7707a0c5",
+                    "analyzer": "Interoperable analyzer",
+                    "featureKey": "69a7e6b2-a5ad-4369-bafd-b20c83a2ab08",
+                    "startLine": 460,
+                    "startColumn": 1,
+                    "endLine": 463,
+                    "endColumn": 2,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "6c17ca9f-0abd-40eb-98ea-9a1bd61051b2",
+                    "analyzer": "Interoperable analyzer",
+                    "featureKey": "39d153fb-4a87-431d-8686-e6860ac0d048",
+                    "startLine": 465,
+                    "startColumn": 1,
+                    "endLine": 468,
+                    "endColumn": 2,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "017944ea-1b29-4a99-a602-84d2b8556260",
+                    "analyzer": "Interoperable analyzer",
+                    "featureKey": "67e22075-c81a-471b-8b5a-ecfae32f3a10",
+                    "startLine": 470,
+                    "startColumn": 1,
+                    "endLine": 501,
+                    "endColumn": 2,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
         }
     ],
     "fileSeeds": [
